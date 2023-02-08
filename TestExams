@@ -1,0 +1,13 @@
+import org.junit;
+public class StringTransform {
+  @Test
+  public Stirng testString = new String;
+   public static void main(String[] args) {
+      Result result = JUnitCore.runClasses(StringTransform.class);
+		
+      for (Failure failure : result.getFailures()) {
+         System.out.println(failure.toString());
+      }
+      System.out.println(result.wasSuccessful());
+   }
+} 
